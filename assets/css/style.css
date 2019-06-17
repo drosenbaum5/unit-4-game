@@ -1,4 +1,10 @@
 
+
+body {
+
+    background-image: url("../images/thanos2.jpg");
+}
+
 .container {
 
 border: 60px;
@@ -11,4 +17,12 @@ margin-top:300px;
 #stones {
     align-content: center;
     margin-left: 200px;
+}
+
+#instructions {
+
+    text-align: center;
+    background-color: gray;
+    border: 10px;
+    opacity: 0.6;
 }
