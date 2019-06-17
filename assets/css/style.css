@@ -1,16 +1,14 @@
 
 .container {
 
-border-width: 20px;
+border: 60px;
 border-color: black;
-margin-top: 240px;
-margin-right: 960px;
-
+margin-top:300px;
 
 }
 
-.jumbotron {
 
- background-color: blanchedalmond;  
-
+#stones {
+    align-content: center;
+    margin-left: 200px;
 }
