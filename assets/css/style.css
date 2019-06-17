@@ -3,7 +3,8 @@
 body {
 
     background-image: url("../images/thanos2.jpg");
-    background-position: fixed;
+    background-position: auto;
+    overflow: hidden;
 }
 
 .container {
@@ -17,13 +18,38 @@ margin-top:300px;
 
 #stones {
     align-content: center;
-    margin-left: 200px;
+    margin-left: 600px;
 }
 
 #instructions {
 
     text-align: center;
-   
-    border: 30px;
+    background-color: gray;
+    border: 50px;
     opacity: 0.6;
+}
+
+footer, .jumbotron {
+
+    opacity:0.8;
+    background: black;
+    
+    
+    
+}
+
+#score-counters {
+
+   
+   color: black;
+   
+   
+}
+
+.number {
+
+margin-left: 400px;
+margin-bottom: 30px;
+background: black;
+opacity: .8;
 }
