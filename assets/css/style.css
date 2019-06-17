@@ -3,6 +3,7 @@
 body {
 
     background-image: url("../images/thanos2.jpg");
+    background-position: fixed;
 }
 
 .container {
@@ -22,7 +23,7 @@ margin-top:300px;
 #instructions {
 
     text-align: center;
-    background-color: gray;
-    border: 10px;
+   
+    border: 30px;
     opacity: 0.6;
 }
