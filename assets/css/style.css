@@ -123,3 +123,22 @@ text-emphasis-color: white;
     margin-right: 40px;
     
 }
+
+#thanos-num, #player-num {
+
+    background: white;
+    opacity: .4;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#win-counter, #loss-counter {
+
+    background: white;
+    opacity: .4;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
