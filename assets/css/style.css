@@ -18,13 +18,14 @@ margin-top:300px;
 
 #stones {
     align-content: center;
-    margin-left: 600px;
+    margin-left: 550px;
+    margin-top: 80px;
 }
 
 #instructions {
 
     text-align: center;
-    background-color: gray;
+    background-color: white;
     border: 50px;
     opacity: 0.6;
 }
@@ -54,7 +55,7 @@ footer {
 
 .instructions-text {
 
-    background: gray;
+    background: white;
     opacity: .4;
     margin-left: 450px;
     margin-right: 450px;
@@ -86,17 +87,20 @@ footer {
 
 
 
-.number {
+.number-thanos {
 
-margin-left: 400px;
+margin-left: 600px;
 margin-bottom: 30px;
 background: black;
 opacity: .9;
+
 }
+
+
 
 .game-title {
 
-    background: gray;
+    background: white;
     opacity: .4;
     margin-left: 400px;
     margin-right: 400px;
@@ -104,7 +108,17 @@ opacity: .9;
 }
 
 
-.number {
+.number-player {
 
-    margin-right: 250px;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    background: black;
+    opacity: .9;
+}
+
+.img-thumbnail {
+
+    margin-right: 40px;
+    
 }

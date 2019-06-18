@@ -9,44 +9,53 @@
     <title>Infinity Stone Collector</title>
 </head>
 <body>
+
+    <!-- Game Title-->
     <div class ="jumbotron text-center">
-
-        <h1 class = "game-title"><b>Infinity Stone Defender</b></h1>
-        
-
+     <h1 class = "game-title"><b>Infinity Stone Defender</b></h1>
     </div>
     
     
-    
+    <!--Win/Loss containter-->
     <div class = "row" id = "score-counters">
-                    
-             <div class="col-lg-6"> 
+        <div class="col-lg-6"> 
             <ul>
              <h3 id="wins">Wins:</h3>
              <h3 id="losses">Losses:</h3>
             </ul>
         </div>  
-            
-</div>
-<div class = "row">
+    </div>
 
-        <div class="col-md-auto">
-                <h3 class="number">Thanos' Number: </h3>
-            </div>
-            <div class="col-md-auto">
-                    <h3 class="number">Your Number: </h3>
-                </div>
+
+<!--Player card and Thanos card to display numbers-->
+<div class = "row">
+ <div class="col-md-auto">
+  <h3 class="number-thanos card text-center">Thanos:
+      <br>
+      <br>
+        <ol>
+         <img src="assets/images/mindstone.PNG" class ="img-thumbnail" height= "20px" width="85px">
+            </ol> </h3>
+ </div>
+            
+ <div class="col-md-auto">
+    <h3 class="number-player card text-center">You: 
+        <br>
+        <br>
+        <ol>
+            <img src="assets/images/spacestone.PNG" class ="img-thumbnail" height= "35px" width="85px">
+    
+    </ol></h3>
+    
+ </div>
 </div> 
 
     
-     <div class = "container">
-            
-</div>
     
     
+    <!-- Rows and columns for infinity stones-->
         <section>
-    
-        <div class= "row">
+       <div class= "row">
             
         </div>
         <div class = "row" id="stones">
@@ -68,7 +77,7 @@
     <br>
     <br>
   
-
+<!---Footer and instructions-->
 <footer class="fixed-bottom border-info text-center">
         <p class = "instructions-text"><b>Thanos has acquired two infinity stones. Use the other four to defend earth from The Destroyer of Worlds!
                 <br>Each round, Thanos will generate a number. Click on the infinity stones to try to match that number, and defeat Thanos.</b><p>
