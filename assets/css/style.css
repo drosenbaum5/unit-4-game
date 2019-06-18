@@ -29,27 +29,82 @@ margin-top:300px;
     opacity: 0.6;
 }
 
-footer, .jumbotron {
+.jumbotron {
 
     opacity:0.8;
     background: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     
     
     
 }
+
+footer {
+
+    opacity:0.8;
+    background: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.instructions-text {
+
+    background: gray;
+    opacity: .4;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: 40px;
+ 
+
+}
+
+#wins, #losses {
+
+    margin-right: 90px;
+  
+  }
 
 #score-counters {
 
    
-   color: black;
+   color: grey;
+   background: black;
+   margin-right: 85%;
+   margin-left: 20px;
+   opacity: .8;
+   
+   
+   
    
    
 }
+
+
 
 .number {
 
 margin-left: 400px;
 margin-bottom: 30px;
 background: black;
-opacity: .8;
+opacity: .9;
+}
+
+.game-title {
+
+    background: gray;
+    opacity: .4;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+
+
+.number {
+
+    margin-right: 250px;
 }
