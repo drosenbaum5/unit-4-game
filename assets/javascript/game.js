@@ -16,6 +16,7 @@ $("#thanos-num").html(thanosNumber);
 $("#player-num").html(playerNumber);
 
 
+
 //generate random numbers for the infinity stone cards
 powerStone = [Math.floor(Math.random() * 13)];
 realityStone = [Math.floor(Math.random() * 13) + 1];
@@ -38,15 +39,18 @@ console.log(playerNumber);
 
 if(playerNumber === thanosNumber) {
 
-    wins++
-    
+        
     gameStart();
+    $("#win-counter").html(wins);
+    ++wins
 }
 
  else if (playerNumber > thanosNumber) {
 
-    losses++
+    
     gameStart();
+    $("#loss-counter").html(losses);
+    ++losses
 }
 
 
@@ -60,14 +64,18 @@ $('#realitystone').on("click", function(){
 
     if(playerNumber === thanosNumber) {
 
-        wins++
+        
         gameStart();
+        $("#win-counter").html(wins + 1);
+        ++wins
     }
     
      else if (playerNumber > thanosNumber) {
     
-        losses++
+        
         gameStart();
+        $("#loss-counter").html(losses + 1);
+        ++losses
     }
 })
     
@@ -79,14 +87,18 @@ $('#soulstone').on("click", function(){
 
     if(playerNumber === thanosNumber) {
 
-        wins++
+        
         gameStart();
+        $("#win-counter").html(wins);
+        ++wins
     }
     
      else if (playerNumber > thanosNumber) {
     
-        losses++
+        
         gameStart();
+        $("#loss-counter").html(losses);
+        ++losses
     }
 })
 
@@ -98,14 +110,18 @@ $('#timestone').on("click", function(){
 
     if(playerNumber === thanosNumber) {
 
-        wins++
+        
         gameStart();
+        $("#win-counter").html(wins);
+        ++wins
     }
     
      else if (playerNumber > thanosNumber) {
     
-        losses++
+        
         gameStart();
+        $("#loss-counter").html(losses);
+        ++losses
     }
 })
 
