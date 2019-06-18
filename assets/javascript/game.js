@@ -11,6 +11,10 @@ var losses = 0;
 function gameStart () {
 //generate a random number for thanos
 thanosNumber = [Math.floor(Math.random() * 121)+ 19];
+
+
+console.log(thanosNumber);
+console.log(typeof thanosNumber);
 playerNumber = 0;
 $("#thanos-num").html(thanosNumber);
 $("#player-num").html(playerNumber);
@@ -32,13 +36,22 @@ function stoneValues () {
     playerNumber += parseInt(powerStone); 
     $("#player-num").html(playerNumber);
     console.log(playerNumber);
+
+    // **** TEST BLOCK **** //
+console.log("Player: " + playerNumber)
+console.log("Player Type: " + typeof playerNumber)
+console.log("Thanos: " + thanosNumber)
+console.log("Thanos Type: " + typeof thanosNumber)
+// **** TEST BLOCK **** //
     
-    if(playerNumber === thanosNumber) {
+    if(playerNumber === parseInt(thanosNumber)) {
         
         wins++;
         $("#win-counter").html(wins);
         gameStart();
         console.log(wins);
+
+        
         
     }
     
@@ -56,8 +69,15 @@ function stoneValues () {
         playerNumber += parseInt(realityStone); 
         $("#player-num").html(playerNumber);
         console.log(playerNumber);
+
+        // **** TEST BLOCK **** //
+console.log("Player: " + playerNumber)
+console.log("Player Type: " + typeof playerNumber)
+console.log("Thanos: " + thanosNumber)
+console.log("Thanos Type: " + typeof thanosNumber)
+// **** TEST BLOCK **** //
     
-        if(playerNumber === thanosNumber) {
+if(playerNumber === parseInt(thanosNumber)) {
         
             wins ++;
             gameStart();
@@ -80,8 +100,15 @@ function stoneValues () {
         playerNumber += parseInt(soulStone); 
         $("#player-num").html(playerNumber);
         console.log(playerNumber);
+
+        // **** TEST BLOCK **** //
+console.log("Player: " + playerNumber)
+console.log("Player Type: " + typeof playerNumber)
+console.log("Thanos: " + thanosNumber)
+console.log("Thanos Type: " + typeof thanosNumber)
+// **** TEST BLOCK **** //
     
-        if(playerNumber === thanosNumber) {
+if(playerNumber === parseInt(thanosNumber)) {
         
             wins++;
             gameStart();
@@ -104,8 +131,15 @@ function stoneValues () {
         playerNumber += parseInt(timeStone); 
         $("#player-num").html(playerNumber);
         console.log(playerNumber);
+
+        // **** TEST BLOCK **** //
+console.log("Player: " + playerNumber)
+console.log("Player Type: " + typeof playerNumber)
+console.log("Thanos: " + thanosNumber)
+console.log("Thanos Type: " + typeof thanosNumber)
+// **** TEST BLOCK **** //
     
-        if(playerNumber === thanosNumber) {
+if(playerNumber === parseInt(thanosNumber)) {
         
             wins++;
             gameStart();
